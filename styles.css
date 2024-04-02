@@ -1,0 +1,102 @@
+/* Estilos generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 2em;
+    margin-top: 50px;
+}
+
+/* Contenedor de selección de lenguaje */
+.contenedorDeLenguaje {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.contenedorDeLenguaje label {
+    margin-right: 10px;
+    color: #555;
+    font-size: 1.2em;
+}
+
+.contenedorDeLenguaje select {
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: #333;
+    transition: border-color 0.3s ease;
+    font-size: 1em;
+    width: 100%;
+    /* Se expandirá para adaptarse al contenedor */
+    max-width: 200px;
+    /* Ancho máximo para evitar que se vea desproporcionado */
+    margin: 0 auto;
+    /* Centrar */
+}
+
+.contenedorDeLenguaje select:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+/* Contenedor de respuesta */
+.contenedorRespuesta {
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    /* Ancho máximo para evitar que se extienda demasiado en pantallas grandes */
+    width: 90%;
+    /* Se ajustará según el tamaño de la pantalla */
+    background-color: #fff;
+}
+
+.contenedorRespuesta label {
+    display: block;
+    margin-bottom: 10px;
+    color: #000000;
+    font-size: 1.2em;
+}
+
+.contenedorRespuesta textarea {
+    width: calc(100% - 20px);
+    /* Ajustar el ancho, con un margen izquierdo y derecho */
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #f8f9fa;
+    color: #333;
+    resize: none;
+    font-size: 1em;
+    box-sizing: border-box;
+    /* Incluir el padding y el borde en el ancho total */
+}
+
+.contenedorRespuesta button {
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1em;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    display: block;
+    /* Hacer que el botón ocupe todo el ancho disponible */
+    width: 12%;
+}
+
+.contenedor-respuesta button:hover {
+    background-color: #0056b3;
+}
