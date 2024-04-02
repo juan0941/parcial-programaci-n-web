@@ -58,8 +58,8 @@ document.addEventListener('DOMContentLoaded', () => {
         fetch('https://text-translator2.p.rapidapi.com/translate', post_option)
             .then(response => response.json())
             .then(response => {
-                console.log(response.data); // para verificar la estructura de la respuesta
-                palabraTraducida.value = response.data.translatedText; // corregido aquí
+                console.log(response.data); 
+                palabraTraducida.value = response.data.translatedText; 
             })
             .catch(err => console.error(err));
     });
