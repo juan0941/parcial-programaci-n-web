@@ -1,16 +1,20 @@
-
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f8f9fa;
+    background-color: #ffffff;
 }
 
 h1 {
+    background-color: rgb(250, 250, 210);
+    width: 16%;
+    margin-left: 600px;
+    border: solid 2px black;
+    border-radius: 30px;
     text-align: center;
-    color: #333;
+    color: #000000;
     font-size: 2em;
-    margin-top: 50px;
+    margin-top: 10px;
 }
 
 .contenedorDeLenguaje {
@@ -20,16 +24,16 @@ h1 {
 
 .contenedorDeLenguaje label {
     margin-right: 10px;
-    color: #555;
+    color: #000000;
     font-size: 1.2em;
 }
 
 .contenedorDeLenguaje select {
     padding: 8px 12px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
+    border-radius: 10px;
+    border: 2px solid #000000;
     background-color: #fff;
-    color: #333;
+    color: #000000;
     transition: border-color 0.3s ease;
     font-size: 1em;
     width: 100%;
@@ -39,34 +43,35 @@ h1 {
 
 .contenedorDeLenguaje select:focus {
     outline: none;
-    border-color: #007bff;
+    border-color: #1100ff;
+    box-shadow: 0 5px 15px #000000;
 }
 
 .contenedorRespuesta {
-    margin: 20px auto;
+    margin: 10px auto;
     padding: 30px;
     border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 15px #1100ff;
     max-width: 800px;
     width: 90%;
-    background-color: #fff;
+    background-color: #ffffff8a;
 }
 
 .contenedorRespuesta label {
     display: block;
-    margin-bottom: 10px;
     color: #000000;
     font-size: 1.2em;
 }
 
 .contenedorRespuesta textarea {
     width: calc(100% - 20px);
+    height: 120px;
     padding: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     border-radius: 5px;
     border: 1px solid #ccc;
     background-color: #f8f9fa;
-    color: #333;
+    color: #000000;
     resize: none;
     font-size: 1em;
     box-sizing: border-box;
@@ -81,12 +86,12 @@ h1 {
     cursor: pointer;
     transition: background-color 0.3s ease;
     font-size: 1em;
-    margin-top: 15px;
-    margin-bottom: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     display: block;
     width: 12%;
 }
 
 .contenedor-respuesta button:hover {
-    background-color: #0056b3;
+    background-color: #ffffff;
 }
